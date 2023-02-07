@@ -67,7 +67,7 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-section{
+section {
   margin-top: 130px;
 }
 /* about section styles */
@@ -103,7 +103,7 @@ section{
 }
 
 .what-i-do {
-   margin-top: 50px;
+  margin-top: 50px;
   padding: 130px 150px;
 }
 .skill {
@@ -124,4 +124,32 @@ section{
 }
 .skill-discription {
   color: #757575;
+}
+
+/* resume styles */
+.resume-content {
+  display: flex;
+  gap: 25px;
+}
+.resume-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume .title {
+  color: #474747;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.resume .subtitle {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume .discription {
+}
+.resume-btn{
+  margin-top: 50px;
+  text-align: center;
 }
